@@ -1,0 +1,28 @@
+{
+  "name": "laboratorio2",
+  "version": "1.0.0",
+  "description": "Laboratorio de Verificacion y Validacion",
+  "keywords": [
+    "Validacion",
+    "verificacion"
+  ],
+  "license": "ISC",
+  "author": "Daniela Tituaña",
+  "type": "commonjs",
+  "main": "./src/app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.28.0",
+    "jest": "^29.7.0",
+    "supertest": "^7.1.1"
+  }
+}
